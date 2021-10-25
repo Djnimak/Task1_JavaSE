@@ -1,0 +1,57 @@
+First run (Foreach keyset HashMap)
+Brilliant
+Joy
+Confidence
+Brave
+
+Second run (Foreach keyset LinkedHashMap)
+Brave
+Brilliant
+Joy
+Confidence
+
+Third run (Foreach values LinkedHashMap)
+ready to face and endure danger or pain; showing courage.
+exceptionally clever or talented.
+a feeling of great pleasure and happiness.
+the state of feeling certain about the truth of something.
+
+Fourth run (Foreach values HashMap)
+exceptionally clever or talented.
+a feeling of great pleasure and happiness.
+the state of feeling certain about the truth of something.
+ready to face and endure danger or pain; showing courage.
+
+Fifth run (Foreach entrySet HashMap)
+Brilliant
+exceptionally clever or talented.
+Joy
+a feeling of great pleasure and happiness.
+Confidence
+the state of feeling certain about the truth of something.
+Brave
+ready to face and endure danger or pain; showing courage.
+
+Sixth run (Foreach entrySet TreeMap)
+Brave
+ready to face and endure danger or pain; showing courage.
+Brilliant
+exceptionally clever or talented.
+Confidence
+the state of feeling certain about the truth of something.
+Joy
+a feeling of great pleasure and happiness.
+
+Seventh run (Foreach entrySet TreeMap)
+Brave
+ready to face and endure danger or pain; showing courage.
+Brilliant
+xxxxxx
+Confidence
+the state of feeling certain about the truth of something.
+Joy
+a feeling of great pleasure and happiness.
+
+Eighth run ()
+
+
