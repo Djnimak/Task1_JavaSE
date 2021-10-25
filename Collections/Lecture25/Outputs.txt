@@ -1,0 +1,30 @@
+First run
+19
+
+Second run
+10
+
+Third run
+10
+100
+200
+45
+1000
+
+Fourth run
+10
+100
+200
+1000
+Fifth run
+10
+100
+200
+1000
+
+Sixth run
+10
+200
+45
+1000
+
