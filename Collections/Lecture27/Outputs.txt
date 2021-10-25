@@ -1,0 +1,68 @@
+First run (HashSet<Integer> with duplicates)
+67
+43
+12
+15
+
+Second run (ArrayList<Integer>)
+67
+43
+12
+15
+43
+
+Third run (HashSet<String> with duplicates)
+Random
+Animal
+People
+
+Fourth run (LinkedHashSet<String>)
+Random
+Animal
+People
+Zoo
+Car
+
+Fourth run (LinkedHashSet<String> with duplicates)
+Random
+Animal
+People
+Zoo
+Car
+
+Fifth run (HashSet<Animal>)
+Animal{name='Bird', age=3}
+Animal{name='Kangaroo', age=24}
+Animal{name='Cat', age=8}
+Animal{name='Dog', age=12}
+Animal{name='Dog', age=12}
+
+Sixth run (equals not overridden)
+false
+
+Seventh run (equals overridden)
+true
+
+Eighth run (hashCode not overridden)
+true
+Animal{name='Bird', age=3}
+Animal{name='Kangaroo', age=24}
+Animal{name='Cat', age=8}
+Animal{name='Dog', age=12}
+Animal{name='Dog', age=12}
+
+Ninth run (hashCode values - hasCode not overridden)
+true
+460141958
+356573597
+
+Tenth run (hasCode values - hasCode overridden)
+true
+2136625
+2136625
+
+Eleventh run (hasCode overridden)
+Animal{name='Dog', age=12}
+Animal{name='Kangaroo', age=24}
+Animal{name='Bird', age=3}
+Animal{name='Cat', age=8}
