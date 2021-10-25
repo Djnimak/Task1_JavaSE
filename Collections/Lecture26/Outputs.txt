@@ -1,0 +1,52 @@
+First run
+Lion
+cat
+Dog
+Bird
+
+Second run
+Lion
+cat
+Dog
+Bird
+Lion
+cat
+Dog
+Bird
+
+Third run
+com.nikita.homework.Vehicle@1b6d3586
+com.nikita.homework.Vehicle@4554617c
+com.nikita.homework.Vehicle@74a14482
+
+Fourth run
+Honda
+accord
+12000
+Toyota
+Camery
+12000
+Jeep
+Wrangler
+25000
+
+Fifth run
+Vehicle{make='Honda', model='accord', price=12000, fourWDrive=false}
+Vehicle{make='Toyota', model='Camery', price=12000, fourWDrive=false}
+Vehicle{make='Jeep', model='Wrangler', price=25000, fourWDrive=true}
+
+Sixth run
+Vehicle{make='Honda', model='accord', price=12000, fourWDrive=false}
+Vehicle{make='Toyota', model='Camery', price=12000, fourWDrive=false}
+Vehicle{make='Jeep', model='Wrangler', price=25000, fourWDrive=true}
+
+Seventh run
+Vehicle{make='Honda', model='accord', price=12000, fourWDrive=false}
+Vehicle{make='Toyota', model='Camery', price=12000, fourWDrive=false}
+Vehicle{make='Jeep', model='Wrangler', price=25000, fourWDrive=true}
+Lion
+cat
+Dog
+Bird
+
+Eighth run
