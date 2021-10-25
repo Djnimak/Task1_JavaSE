@@ -1,0 +1,43 @@
+First run (addAll)
+[12, 43, 15, 67, 43]
+
+Second run (removeAll)
+[12, 43, 15, 67, 43]
+
+Third run (removeAll)
+[12, 43, 43]
+
+Fourth tun (clear)
+[]
+
+Fifth run (contains)
+true
+
+Sixth run (contains)
+false
+
+Seventh run (isEmpty)
+false
+
+Eighth run (isEmpty)
+true
+
+Ninth run (retainAll)
+[15, 67, 10, 10, 10, 10]
+
+Tenth run (Collections.sort Integer)
+[10, 12, 15, 43, 67]
+
+Eleventh run (Collections.sort String)
+[Cloths, Computer, Random, Tooth Brush]
+
+Twelfth run (Collections.sort Employee)
+[Employee{name='Angel', salary=2000, department='Maint'}, Employee{name='Paul', salary=3000, department='Admin'}, Employee{name='Mike', salary=3500, department='Accounting'}, Employee{name='Peter', salary=4000, department='IT'}]
+
+Thirteenth run (Collections.sort Employee)
+[Employee{name='Peter', salary=4000, department='IT'}, Employee{name='Mike', salary=3500, department='Accounting'}, Employee{name='Paul', salary=3000, department='Admin'}, Employee{name='Angel', salary=2000, department='Maint'}]
+
+Fourteenth run ()
+
+
+
