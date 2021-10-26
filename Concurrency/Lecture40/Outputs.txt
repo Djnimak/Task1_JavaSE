@@ -1,0 +1,25 @@
+First run (no loop)
+Got new Question: 0
+ANSWERED QUESTION: 0
+
+Second run (loop)
+Got new Question: 0
+Got new Question: 1
+Got new Question: 2
+Got new Question: 3
+Got new Question: 4
+Got new Question: 5
+Got new Question: 6
+ANSWERED QUESTION: 0
+ANSWERED QUESTION: 1
+Got new Question: 7
+ANSWERED QUESTION: 2
+Got new Question: 8
+ANSWERED QUESTION: 3
+Got new Question: 9
+ANSWERED QUESTION: 4
+Got new Question: 10
+ANSWERED QUESTION: 5
+Got new Question: 11
+ANSWERED QUESTION: 6
+Got new Question: 12

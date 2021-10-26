@@ -1,0 +1,20 @@
+First run ()
+New Question: 0
+New Question: 1
+ANSWERED Question: 0
+ANSWERED Question: 1
+New Question: 2
+ANSWERED Question: 2
+No Question to Answer... Waiting for producer to get questions
+New Question: 3
+New Question: 4
+New Question: 5
+ANSWERED Question: 3
+ANSWERED Question: 4
+New Question: 6
+New Question: 7
+New Question: 8
+New Question: 9
+ANSWERED Question: 5
+New Question: 10
+Questions have piled up.. wait for answers

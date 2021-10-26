@@ -1,0 +1,99 @@
+First run (sleep 10ms)
+Starting Thread 1
+Starting Thread 2
+number: 0
+number: 0
+number: 1
+number: 1
+number: 2
+number: 3
+number: 2
+number: 4
+number: 3
+number: 4
+
+Second run (Thread.getName)
+Starting Thread 1
+Starting Thread 2
+number: 0 - Thread-0
+number: 0 - Thread-1
+number: 1 - Thread-1
+number: 1 - Thread-0
+number: 2 - Thread-1
+number: 2 - Thread-0
+number: 3 - Thread-1
+number: 3 - Thread-0
+number: 4 - Thread-1
+number: 4 - Thread-0
+
+Third run (Thread.setName)
+Starting Thread 1
+Starting Thread 2
+number: 0 - Thread-A
+number: 0 - Thread-B
+number: 1 - Thread-B
+number: 1 - Thread-A
+number: 2 - Thread-A
+number: 2 - Thread-B
+number: 3 - Thread-B
+number: 3 - Thread-A
+number: 4 - Thread-A
+number: 4 - Thread-B
+
+Fourth run (run())
+Starting Thread 1
+number: 0 - Thread-A
+number: 1 - Thread-A
+number: 2 - Thread-A
+number: 3 - Thread-A
+number: 4 - Thread-A
+Starting Thread 2
+number: 0 - Thread-B
+number: 1 - Thread-B
+number: 2 - Thread-B
+number: 3 - Thread-B
+number: 4 - Thread-B
+
+Fifth run (Thread(Runnable))
+Starting Thread 1
+Starting Thread 2
+number: 0 - Thread-A
+number: 0 - Thread-B
+number: 1 - Thread-B
+number: 1 - Thread-A
+number: 2 - Thread-A
+number: 2 - Thread-B
+number: 3 - Thread-B
+number: 3 - Thread-A
+number: 4 - Thread-B
+number: 4 - Thread-A
+
+Sixth run (Thread(Runnable))
+Starting Thread 1
+Starting Thread 2
+number: 0 - Thread-A
+number: 0 - Thread-B
+number: 1 - Thread-B
+number: 1 - Thread-A
+number: 2 - Thread-B
+number: 2 - Thread-A
+number: 3 - Thread-B
+number: 3 - Thread-A
+number: 4 - Thread-B
+number: 4 - Thread-A
+
+Seventh run (Anonymous class)
+Starting Thread 1
+Starting Thread 2
+number: 0 - Thread-0
+number: 0 - Thread-1
+number: 1 - Thread-0
+number: 2 - Thread-0
+number: 1 - Thread-1
+number: 2 - Thread-1
+number: 3 - Thread-0
+number: 3 - Thread-1
+number: 4 - Thread-0
+number: 4 - Thread-1
+
+

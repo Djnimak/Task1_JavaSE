@@ -1,0 +1,67 @@
+First run
+hello there...
+
+Second run (Thread) - Decided to print only 10 numbers instead of 1000
+hello there...
+number: 0
+number: 1
+number: 2
+number: 3
+number: 4
+number: 5
+number: 6
+number: 7
+number: 8
+number: 9
+
+Third run (Thread)
+hello there...
+number: 0
+number: 1
+number: 2
+number: 3
+number: 4
+number: 5
+number: 6
+number: 7
+number: 8
+number: 9
+
+Fourth run (2 .start calls)
+hello there...
+number: 0
+number: 1
+number: 2
+number: 3
+number: 4
+number: 5
+number: 6
+number: 7
+number: 8
+number: 9
+Exception in thread "main" java.lang.IllegalThreadStateException
+	at java.lang.Thread.start(Thread.java:708)
+	at com.nikita.homework.Application.main(Application.java:12)
+
+Fifth run (2 instances of class)
+hello there...
+number: 0
+number: 1
+number: 2
+number: 3
+number: 4
+number: 5
+number: 6
+number: 7
+number: 8
+number: 9
+number: 0
+number: 1
+number: 2
+number: 3
+number: 4
+number: 5
+number: 6
+number: 7
+number: 8
+number: 9

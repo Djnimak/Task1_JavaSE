@@ -1,0 +1,77 @@
+First run ()
+pool-1-thread-1[RECEIVED] Message = 2
+pool-1-thread-2[RECEIVED] Message = 3
+pool-1-thread-1(DONE) Processing Message = 2
+pool-1-thread-2(DONE) Processing Message = 3
+pool-1-thread-2[RECEIVED] Message = 4
+pool-1-thread-2(DONE) Processing Message = 4
+
+Second run (shutdown())
+pool-1-thread-1[RECEIVED] Message = 2
+pool-1-thread-2[RECEIVED] Message = 3
+pool-1-thread-1(DONE) Processing Message = 2
+pool-1-thread-2(DONE) Processing Message = 3
+pool-1-thread-2[RECEIVED] Message = 4
+pool-1-thread-2(DONE) Processing Message = 4
+
+Third run ()
+pool-1-thread-1[RECEIVED] Message = 2
+pool-1-thread-2[RECEIVED] Message = 3
+pool-1-thread-2(DONE) Processing Message = 3
+pool-1-thread-1(DONE) Processing Message = 2
+pool-1-thread-1[RECEIVED] Message = 4
+pool-1-thread-2[RECEIVED] Message = 4
+pool-1-thread-2(DONE) Processing Message = 4
+pool-1-thread-1(DONE) Processing Message = 4
+
+Fourth run ()
+submitted all tasks...
+pool-1-thread-1[RECEIVED] Message = 2
+pool-1-thread-2[RECEIVED] Message = 3
+pool-1-thread-1(DONE) Processing Message = 2
+pool-1-thread-2(DONE) Processing Message = 3
+pool-1-thread-2[RECEIVED] Message = 4
+pool-1-thread-1[RECEIVED] Message = 4
+pool-1-thread-1(DONE) Processing Message = 4
+pool-1-thread-2(DONE) Processing Message = 4
+
+Fifth run ()
+pool-1-thread-1[RECEIVED] Message = 2
+pool-1-thread-2[RECEIVED] Message = 3
+pool-1-thread-2(DONE) Processing Message = 3
+pool-1-thread-1(DONE) Processing Message = 2
+pool-1-thread-1[RECEIVED] Message = 4
+pool-1-thread-2[RECEIVED] Message = 4
+pool-1-thread-2(DONE) Processing Message = 4
+pool-1-thread-1(DONE) Processing Message = 4
+submitted all tasks...
+
+Sixth run (shutdownNow)
+pool-1-thread-1[RECEIVED] Message = 2
+Unable to process message - 2
+pool-1-thread-1(DONE) Processing Message = 2
+pool-1-thread-2[RECEIVED] Message = 3
+Unable to process message - 3
+pool-1-thread-2(DONE) Processing Message = 3
+submitted all tasks...
+
+Seventh run (awaitTermination)
+pool-1-thread-1[RECEIVED] Message = 2
+pool-1-thread-2[RECEIVED] Message = 3
+pool-1-thread-1(DONE) Processing Message = 2
+pool-1-thread-2(DONE) Processing Message = 3
+pool-1-thread-2[RECEIVED] Message = 4
+pool-1-thread-1[RECEIVED] Message = 4
+pool-1-thread-1(DONE) Processing Message = 4
+pool-1-thread-2(DONE) Processing Message = 4
+submitted all tasks...
+
+Eighth run ()
+
+
+Ninth run ()
+
+
+Tenth run ()
+
+

@@ -1,0 +1,202 @@
+First run (sleep(2000) - decided to add ony needed info
+ADDED: id: 124 | name: test_product_124
+PRINTING THE SOLD: id: 0 | name: test_product_0
+PRINTING THE SOLD: id: 1 | name: test_product_1
+ADDED: id: 125 | name: test_product_125
+ADDED: id: 126 | name: test_product_126
+Exception in thread "Thread-1" java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:911)
+	at java.util.ArrayList$Itr.next(ArrayList.java:861)
+	at com.nikita.homework.inventory.InventoryManager.displaySoldProducts(InventoryManager.java:24)
+	at com.nikita.client.Application$2.run(Application.java:19)
+	at java.lang.Thread.run(Thread.java:748)
+ADDED: id: 127 | name: test_product_127
+
+Second run (join())
+ADDED: id: 0 | name: test_product_0
+ADDED: id: 1 | name: test_product_1
+ADDED: id: 2 | name: test_product_2
+ADDED: id: 3 | name: test_product_3
+ADDED: id: 4 | name: test_product_4
+ADDED: id: 5 | name: test_product_5
+ADDED: id: 6 | name: test_product_6
+ADDED: id: 7 | name: test_product_7
+ADDED: id: 8 | name: test_product_8
+ADDED: id: 9 | name: test_product_9
+PRINTING THE SOLD: id: 0 | name: test_product_0
+PRINTING THE SOLD: id: 1 | name: test_product_1
+PRINTING THE SOLD: id: 2 | name: test_product_2
+PRINTING THE SOLD: id: 3 | name: test_product_3
+PRINTING THE SOLD: id: 4 | name: test_product_4
+PRINTING THE SOLD: id: 5 | name: test_product_5
+PRINTING THE SOLD: id: 6 | name: test_product_6
+PRINTING THE SOLD: id: 7 | name: test_product_7
+PRINTING THE SOLD: id: 8 | name: test_product_8
+PRINTING THE SOLD: id: 9 | name: test_product_9
+
+Third run (CopyOnArrayList)
+ADDED: id: 0 | name: test_product_0
+ADDED: id: 1 | name: test_product_1
+ADDED: id: 2 | name: test_product_2
+ADDED: id: 3 | name: test_product_3
+ADDED: id: 4 | name: test_product_4
+ADDED: id: 5 | name: test_product_5
+ADDED: id: 6 | name: test_product_6
+ADDED: id: 7 | name: test_product_7
+ADDED: id: 8 | name: test_product_8
+ADDED: id: 9 | name: test_product_9
+ADDED: id: 10 | name: test_product_10
+ADDED: id: 11 | name: test_product_11
+ADDED: id: 12 | name: test_product_12
+ADDED: id: 13 | name: test_product_13
+ADDED: id: 14 | name: test_product_14
+ADDED: id: 15 | name: test_product_15
+ADDED: id: 16 | name: test_product_16
+ADDED: id: 17 | name: test_product_17
+ADDED: id: 18 | name: test_product_18
+ADDED: id: 19 | name: test_product_19
+ADDED: id: 20 | name: test_product_20
+ADDED: id: 21 | name: test_product_21
+ADDED: id: 22 | name: test_product_22
+ADDED: id: 23 | name: test_product_23
+ADDED: id: 24 | name: test_product_24
+ADDED: id: 25 | name: test_product_25
+ADDED: id: 26 | name: test_product_26
+ADDED: id: 27 | name: test_product_27
+ADDED: id: 28 | name: test_product_28
+ADDED: id: 29 | name: test_product_29
+ADDED: id: 30 | name: test_product_30
+ADDED: id: 31 | name: test_product_31
+ADDED: id: 32 | name: test_product_32
+ADDED: id: 33 | name: test_product_33
+ADDED: id: 34 | name: test_product_34
+ADDED: id: 35 | name: test_product_35
+ADDED: id: 36 | name: test_product_36
+ADDED: id: 37 | name: test_product_37
+ADDED: id: 38 | name: test_product_38
+ADDED: id: 39 | name: test_product_39
+ADDED: id: 40 | name: test_product_40
+ADDED: id: 41 | name: test_product_41
+ADDED: id: 42 | name: test_product_42
+ADDED: id: 43 | name: test_product_43
+ADDED: id: 44 | name: test_product_44
+ADDED: id: 45 | name: test_product_45
+ADDED: id: 46 | name: test_product_46
+ADDED: id: 47 | name: test_product_47
+ADDED: id: 48 | name: test_product_48
+ADDED: id: 49 | name: test_product_49
+ADDED: id: 50 | name: test_product_50
+ADDED: id: 51 | name: test_product_51
+ADDED: id: 52 | name: test_product_52
+ADDED: id: 53 | name: test_product_53
+ADDED: id: 54 | name: test_product_54
+ADDED: id: 55 | name: test_product_55
+ADDED: id: 56 | name: test_product_56
+ADDED: id: 57 | name: test_product_57
+ADDED: id: 58 | name: test_product_58
+ADDED: id: 59 | name: test_product_59
+ADDED: id: 60 | name: test_product_60
+ADDED: id: 61 | name: test_product_61
+ADDED: id: 62 | name: test_product_62
+PRINTING THE SOLD: id: 0 | name: test_product_0
+PRINTING THE SOLD: id: 1 | name: test_product_1
+ADDED: id: 63 | name: test_product_63
+ADDED: id: 64 | name: test_product_64
+PRINTING THE SOLD: id: 2 | name: test_product_2
+PRINTING THE SOLD: id: 3 | name: test_product_3
+ADDED: id: 65 | name: test_product_65
+PRINTING THE SOLD: id: 4 | name: test_product_4
+ADDED: id: 66 | name: test_product_66
+ADDED: id: 67 | name: test_product_67
+PRINTING THE SOLD: id: 5 | name: test_product_5
+ADDED: id: 68 | name: test_product_68
+PRINTING THE SOLD: id: 6 | name: test_product_6
+PRINTING THE SOLD: id: 7 | name: test_product_7
+ADDED: id: 69 | name: test_product_69
+ADDED: id: 70 | name: test_product_70
+PRINTING THE SOLD: id: 8 | name: test_product_8
+PRINTING THE SOLD: id: 9 | name: test_product_9
+ADDED: id: 71 | name: test_product_71
+PRINTING THE SOLD: id: 10 | name: test_product_10
+ADDED: id: 72 | name: test_product_72
+PRINTING THE SOLD: id: 11 | name: test_product_11
+ADDED: id: 73 | name: test_product_73
+PRINTING THE SOLD: id: 12 | name: test_product_12
+ADDED: id: 74 | name: test_product_74
+PRINTING THE SOLD: id: 13 | name: test_product_13
+ADDED: id: 75 | name: test_product_75
+ADDED: id: 76 | name: test_product_76
+PRINTING THE SOLD: id: 14 | name: test_product_14
+PRINTING THE SOLD: id: 15 | name: test_product_15
+ADDED: id: 77 | name: test_product_77
+PRINTING THE SOLD: id: 16 | name: test_product_16
+ADDED: id: 78 | name: test_product_78
+PRINTING THE SOLD: id: 17 | name: test_product_17
+ADDED: id: 79 | name: test_product_79
+PRINTING THE SOLD: id: 18 | name: test_product_18
+ADDED: id: 80 | name: test_product_80
+ADDED: id: 81 | name: test_product_81
+PRINTING THE SOLD: id: 19 | name: test_product_19
+PRINTING THE SOLD: id: 20 | name: test_product_20
+ADDED: id: 82 | name: test_product_82
+ADDED: id: 83 | name: test_product_83
+PRINTING THE SOLD: id: 21 | name: test_product_21
+PRINTING THE SOLD: id: 22 | name: test_product_22
+ADDED: id: 84 | name: test_product_84
+PRINTING THE SOLD: id: 23 | name: test_product_23
+ADDED: id: 85 | name: test_product_85
+PRINTING THE SOLD: id: 24 | name: test_product_24
+ADDED: id: 86 | name: test_product_86
+ADDED: id: 87 | name: test_product_87
+PRINTING THE SOLD: id: 25 | name: test_product_25
+PRINTING THE SOLD: id: 26 | name: test_product_26
+ADDED: id: 88 | name: test_product_88
+ADDED: id: 89 | name: test_product_89
+PRINTING THE SOLD: id: 27 | name: test_product_27
+PRINTING THE SOLD: id: 28 | name: test_product_28
+ADDED: id: 90 | name: test_product_90
+PRINTING THE SOLD: id: 29 | name: test_product_29
+ADDED: id: 91 | name: test_product_91
+PRINTING THE SOLD: id: 30 | name: test_product_30
+ADDED: id: 92 | name: test_product_92
+PRINTING THE SOLD: id: 31 | name: test_product_31
+ADDED: id: 93 | name: test_product_93
+ADDED: id: 94 | name: test_product_94
+PRINTING THE SOLD: id: 32 | name: test_product_32
+PRINTING THE SOLD: id: 33 | name: test_product_33
+ADDED: id: 95 | name: test_product_95
+PRINTING THE SOLD: id: 34 | name: test_product_34
+ADDED: id: 96 | name: test_product_96
+ADDED: id: 97 | name: test_product_97
+PRINTING THE SOLD: id: 35 | name: test_product_35
+PRINTING THE SOLD: id: 36 | name: test_product_36
+ADDED: id: 98 | name: test_product_98
+ADDED: id: 99 | name: test_product_99
+PRINTING THE SOLD: id: 37 | name: test_product_37
+PRINTING THE SOLD: id: 38 | name: test_product_38
+PRINTING THE SOLD: id: 39 | name: test_product_39
+PRINTING THE SOLD: id: 40 | name: test_product_40
+PRINTING THE SOLD: id: 41 | name: test_product_41
+PRINTING THE SOLD: id: 42 | name: test_product_42
+PRINTING THE SOLD: id: 43 | name: test_product_43
+PRINTING THE SOLD: id: 44 | name: test_product_44
+PRINTING THE SOLD: id: 45 | name: test_product_45
+PRINTING THE SOLD: id: 46 | name: test_product_46
+PRINTING THE SOLD: id: 47 | name: test_product_47
+PRINTING THE SOLD: id: 48 | name: test_product_48
+PRINTING THE SOLD: id: 49 | name: test_product_49
+PRINTING THE SOLD: id: 50 | name: test_product_50
+PRINTING THE SOLD: id: 51 | name: test_product_51
+PRINTING THE SOLD: id: 52 | name: test_product_52
+PRINTING THE SOLD: id: 53 | name: test_product_53
+PRINTING THE SOLD: id: 54 | name: test_product_54
+PRINTING THE SOLD: id: 55 | name: test_product_55
+PRINTING THE SOLD: id: 56 | name: test_product_56
+PRINTING THE SOLD: id: 57 | name: test_product_57
+PRINTING THE SOLD: id: 58 | name: test_product_58
+PRINTING THE SOLD: id: 59 | name: test_product_59
+PRINTING THE SOLD: id: 60 | name: test_product_60
+PRINTING THE SOLD: id: 61 | name: test_product_61
+PRINTING THE SOLD: id: 62 | name: test_product_62
+
+
