@@ -1,0 +1,39 @@
+First run (IntStream(1,10)
+123456789
+
+Second run (IntStream.skip)
+6789
+
+Third run (IntStream.sum)
+45
+
+Fourth run (Stream.of.sorted.findFirst.ifPresent)
+Africa
+
+Fifth run (Stream.of(array).filter)
+tent, toothpaste, toy,
+
+Sixth run (Arrays.stream.average)
+44.0
+
+Eighth run (listOfItems.stream)
+car, computer,
+
+Ninth run (Stream from file)
+Bitcoin, Computer Application, Dry Cleaner, Education, Health Insurance, Keyboard, Powerade, Samantha, White Board,
+
+Tenth run (Stream from file to List)
+Samantha, Health Insurance,
+
+Eleventh run (Stream from file count())
+3 good rows.
+
+Twelfth run ()
+APPL 145 422
+AMZN 690 849
+
+Thirteenth run ()
+
+
+
+
