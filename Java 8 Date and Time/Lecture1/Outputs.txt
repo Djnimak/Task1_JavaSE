@@ -1,0 +1,13 @@
+First run (LocalDate/Time/DateTime.now)
+2021-10-27
+18:34:41.152
+2021-10-27T18:34:41.152
+
+Second run ()
+2017-01-01
+10:30
+2017-01-01T10:30
+
+Third run (Before Java8)
+Wed Oct 27 18:38:57 EEST 2021
+Thu Jan 01 18:38:58 EET 2015

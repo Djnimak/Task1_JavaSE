@@ -1,0 +1,51 @@
+First run ()
+2010-04-15
+2010-04-15T11:22:33
+11:22:33
+
+Second run ()
+4/15/10
+Apr 15, 2010
+Exception in thread "main" java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: MonthOfYear
+	at java.time.LocalTime.get0(LocalTime.java:679)
+	at java.time.LocalTime.getLong(LocalTime.java:656)
+	at java.time.format.DateTimePrintContext$1.getLong(DateTimePrintContext.java:205)
+	at java.time.format.DateTimePrintContext.getValue(DateTimePrintContext.java:298)
+	at java.time.format.DateTimeFormatterBuilder$NumberPrinterParser.format(DateTimeFormatterBuilder.java:2551)
+	at java.time.format.DateTimeFormatterBuilder$CompositePrinterParser.format(DateTimeFormatterBuilder.java:2190)
+	at java.time.format.DateTimeFormatterBuilder$LocalizedPrinterParser.format(DateTimeFormatterBuilder.java:4358)
+	at java.time.format.DateTimeFormatterBuilder$CompositePrinterParser.format(DateTimeFormatterBuilder.java:2190)
+	at java.time.format.DateTimeFormatter.formatTo(DateTimeFormatter.java:1746)
+	at java.time.format.DateTimeFormatter.format(DateTimeFormatter.java:1720)
+	at com.nikita.homework.datetime.FormattingDateTime.main(FormattingDateTime.java:30)
+
+Third run (MMMM)
+April 15, 2010, 11:22
+
+Fourth run (MMM)
+Apr 15, 2010, 11:22
+
+Fifth run (MM)
+04 15, 2010, 11:22
+
+Sixth run (M)
+4 15, 2010, 11:22
+
+Seventh run ()
+07:15
+
+Eighth run ()
+11:22
+Exception in thread "main" java.time.temporal.UnsupportedTemporalTypeException: Unsupported field: ClockHourOfAmPm
+	at java.time.LocalDate.get0(LocalDate.java:680)
+	at java.time.LocalDate.getLong(LocalDate.java:659)
+	at java.time.format.DateTimePrintContext.getValue(DateTimePrintContext.java:298)
+	at java.time.format.DateTimeFormatterBuilder$NumberPrinterParser.format(DateTimeFormatterBuilder.java:2551)
+	at java.time.format.DateTimeFormatterBuilder$CompositePrinterParser.format(DateTimeFormatterBuilder.java:2190)
+	at java.time.format.DateTimeFormatter.formatTo(DateTimeFormatter.java:1746)
+	at java.time.format.DateTimeFormatter.format(DateTimeFormatter.java:1720)
+	at com.nikita.homework.datetime.FormattingDateTime.main(FormattingDateTime.java:42)
+
+Ninth run ()
+11:22
+11:22

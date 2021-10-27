@@ -1,0 +1,65 @@
+First run ()
+Need to clean the cage on date= 2017-01-01
+Need to clean the cage on date= 2017-02-01
+Need to clean the cage on date= 2017-03-01
+Need to clean the cage on date= 2017-04-01
+
+Second run ()
+2017-01-15
+2021-11-10T18:57:46.378
+Exception in thread "main" java.time.temporal.UnsupportedTemporalTypeException: Unsupported unit: Days
+	at java.time.LocalTime.plus(LocalTime.java:1055)
+	at java.time.LocalTime.plus(LocalTime.java:125)
+	at java.time.Period.addTo(Period.java:906)
+	at java.time.LocalTime.plus(LocalTime.java:988)
+	at com.nikita.homework.datetime.UsingPeriod.main(UsingPeriod.java:24)
+
+Third run ()
+P1M
+
+Fourth run ()
+P1Y1M
+
+Fifth run (Period 1week)
+Need to clean the cage on date= 2017-01-01
+Need to clean the cage on date= 2017-01-08
+Need to clean the cage on date= 2017-01-15
+Need to clean the cage on date= 2017-01-22
+Need to clean the cage on date= 2017-01-29
+Need to clean the cage on date= 2017-02-05
+Need to clean the cage on date= 2017-02-12
+Need to clean the cage on date= 2017-02-19
+Need to clean the cage on date= 2017-02-26
+Need to clean the cage on date= 2017-03-05
+Need to clean the cage on date= 2017-03-12
+Need to clean the cage on date= 2017-03-19
+Need to clean the cage on date= 2017-03-26
+Need to clean the cage on date= 2017-04-02
+Need to clean the cage on date= 2017-04-09
+Need to clean the cage on date= 2017-04-16
+Need to clean the cage on date= 2017-04-23
+
+Sixth run (Period 2months)
+Need to clean the cage on date= 2017-01-01
+Need to clean the cage on date= 2017-03-01
+
+Eighth run (Period 15days)
+Need to clean the cage on date= 2017-01-01
+Need to clean the cage on date= 2017-01-16
+Need to clean the cage on date= 2017-01-31
+Need to clean the cage on date= 2017-02-15
+Need to clean the cage on date= 2017-03-02
+Need to clean the cage on date= 2017-03-17
+Need to clean the cage on date= 2017-04-01
+Need to clean the cage on date= 2017-04-16
+
+Ninth run (Period 2weeks)
+Need to clean the cage on date= 2017-01-01
+Need to clean the cage on date= 2017-01-15
+Need to clean the cage on date= 2017-01-29
+Need to clean the cage on date= 2017-02-12
+Need to clean the cage on date= 2017-02-26
+Need to clean the cage on date= 2017-03-12
+Need to clean the cage on date= 2017-03-26
+Need to clean the cage on date= 2017-04-09
+Need to clean the cage on date= 2017-04-23
